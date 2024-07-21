@@ -26,6 +26,9 @@ import withRouter from '../utils/withRouter';
             {cates}
           </ul>
         </div>
+        <div style={{display : 'inline'}} class ='form-switch'>
+          <input class='form-check-input' type='checkbox' onChange={(e) =>this.ckbChangeMode(e)}/>&nbsp; Light / Dark more
+        </div>
         <div className="float-right">
           <form className="search">
             <input type="search" placeholder="Enter keyword" className="keyword" value={this.state.txtKeyword} onChange={(e) => { this.setState({ txtKeyword: e.target.value }) }} />
@@ -50,6 +53,14 @@ import withRouter from '../utils/withRouter';
   btnSearchClick(e) {
     e.preventDefault();
     this.props.navigate('/product/search/' + this.state.txtKeyword);
+  }
+  ckbChangeMode(e){
+    if(e.target.checked){
+      document.documentElement.setAttribute('data-bs-theme','dark');
+    }
+    else{
+      document.documentElement.setAttribute('data-bs-theme', 'light')
+    }
   }
 }
 export default withRouter(Menu);
