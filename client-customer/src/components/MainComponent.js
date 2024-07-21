@@ -12,10 +12,14 @@ import Myprofile from './MyprofileComponent';
 import Mycart from './MycartComponent';
 import Myorders from './MyordersComponent';
 import Gmap from './GmapComponent';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 class Main extends Component {
   render() {
     return (
       <div className="body-customer">
+      <ToastContainer autoClose={3000}/>
       <Menu />
       <Inform /> 
       
