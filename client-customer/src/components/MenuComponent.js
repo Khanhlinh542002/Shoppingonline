@@ -22,6 +22,7 @@ import withRouter from '../utils/withRouter';
         <div className="float-left">
           <ul className="menu">
             <li className="menu"><Link to='/'>Home</Link></li>
+            <li className="menu"><Link to='/Gmap'>Gmap</Link></li>
             {cates}
           </ul>
         </div>
