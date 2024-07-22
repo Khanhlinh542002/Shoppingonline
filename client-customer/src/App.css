@@ -127,7 +127,7 @@ span.link {
 /* menu.css */
 
 div.border-bottom {
-  height: 130px;
+  height: 10px;
   border-bottom: 1px solid rgb(208, 206, 206);
   padding: 10px;
   background-color: rgb(217, 217, 217);
@@ -158,10 +158,10 @@ div.float-left {
   width: 80px;
   height: 30px;
   border-radius: 0px;
-  padding-right: 0px;
+  margin-right: 0px;
 }
 .search #button-search:hover{
-   background-color:#fcf6e2
+   background-color:#b7f3c9
 }
 .others{
   display: inline-block;
