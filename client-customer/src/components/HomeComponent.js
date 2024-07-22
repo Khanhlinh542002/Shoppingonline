@@ -137,13 +137,9 @@ class Home extends Component {
         <div className="footer">
             <div class="footer-item">
                 <p>Address 1: <b>69/68 Dang Thuy Tram</b> str, District <b>Binh Thanh</b>, <b>Ho Chi Minh</b> city</p>
-                <p>Address 2: <b>Nguyen Khac Nhu</b> str, District <b>1</b>, <b>Ho Chi Minh</b> city</p>
                 <p>Email: Example@gmail.com</p>
                 <p>Phone: +0123 4567 8910</p>
                 <p>Payment Accepted</p>
-                <img src="/mastercard.png"/>
-                <img src="/paypal.png"/>
-                <img src="/applepay.png"/>
             </div>
         </div>
          
