@@ -1,8 +1,8 @@
 import axios from 'axios';
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import MainMenu from './MainMenuComponent'
-class Home extends Component {
+
+class Introduction extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -123,16 +123,15 @@ class Home extends Component {
             <span className="dot" onClick={() => this.currentSlide(2)}></span>
             <span className="dot" onClick={() => this.currentSlide(3)}></span>
           </div>
-          <h2 className="text-center">NEW PRODUCTS</h2>
-          {newprods}
+         <div className="ads-img">
+            <img src="/DiorADS.jpg" width="50%" height="50%" style={{padding:"30px"}}/>
+            <img src="/SauvageADS.jpg" width="50%" height="50%" style={{padding:"30px"}}/>
+            <a target="_blank" href="https://www.theperfumegirl.com/perfumes/fragrances/hugo-boss/boss-bottled-eau-de-parfum/"><img src="/BossADS.jpg" width="30%"style={{padding:"30px"}}/></a>
+            <a target="_blank" href="http://www.mimifroufrou.com/scentedsalamander/2015/08/hugo_boss_unveil_Boss_the_Scent_ad.html"><img src="/BossADS1.jpg" width="30%"style={{padding:"30px"}}/></a>
+            <a target="_blank" href="https://www.pinterest.com/pin/28147566395538834/"><img src="/BossADS2.jpg" width="40%"style={{padding:"30px"}}/></a>
+
+         </div>
         </div>
-        {this.state.hotprods.length > 0 ?
-        <div className="align-center">
-            <h2 className="text-center">HOT PRODUCTS</h2>
-            {hotprods}
-          </div>
-          : <div />
-        }
 
         <div className="footer">
             <div class="footer-item">
@@ -152,4 +151,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Introduction;

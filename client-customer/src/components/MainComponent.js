@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import Menu from './MenuComponent';
+import MainMenu from './MainMenuComponent';
 import Inform from './InformComponent';
 import Home from './HomeComponent';
-import { Routes, Route, Navigate } from 'react-router-dom';
 import Product from './ProductComponent';
 import ProductDetail from './ProductDetailComponent';
 import Signup from './SignupComponent';
@@ -12,21 +13,18 @@ import Myprofile from './MyprofileComponent';
 import Mycart from './MycartComponent';
 import Myorders from './MyordersComponent';
 import Gmap from './GmapComponent';
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import Introduction from './IntroductionComponent';
 
-class Main extends Component {
-  render() {
-    return (
-      <div className="body-customer">
-        <ToastContainer autoClose={3000}/>
-      <Menu />
-      <Inform /> 
-      
-    
-       
+const Main = () => {
+  const location = useLocation();
+
+  return (
+    <div className="body-customer">
+      {location.pathname === '/Intro' ||location.pathname === '/login' ||location.pathname === '/signup' || location.pathname==='/active' ? <Menu /> : <MainMenu />}
+      <Inform />
       <Routes>
-        <Route path='/' element={<Navigate replace to='/home' />} />
+        <Route path='/' element={<Navigate replace to='/Intro' />} />
+        <Route path='/Intro' element={<Introduction />} />
         <Route path='/home' element={<Home />} />
         <Route path='/product/category/:cid' element={<Product />} />
         <Route path='/product/search/:keyword' element={<Product />} />
@@ -37,12 +35,10 @@ class Main extends Component {
         <Route path='/myprofile' element={<Myprofile />} />
         <Route path='/mycart' element={<Mycart />} />
         <Route path='/myorders' element={<Myorders />} />
-        <Route path='/Gmap' element={<Gmap/>}/>
+        <Route path='/gmap' element={<Gmap />} />
       </Routes>
-      
-      
     </div>
-    );
-  }
-}
+  );
+};
+
 export default Main;
