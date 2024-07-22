@@ -159,7 +159,7 @@ div.float-left {
     outline: none; /* Loại bỏ đường viền khi focus */
     color: #000000; /* Màu chữ đen */
     margin-left: 500px;
-    margin-top: 50px;
+    margin-top: 15px;
 }
 .search #button-search{
   width: 80px;
