@@ -154,16 +154,17 @@ div.float-left {
     width: 150px;
     height: 20px;
     padding: 10px;
-    border:1px solid black 1;
+    border: 1px solid black;
     border-radius: 0px; /* Bo tròn cạnh của input */
     outline: none; /* Loại bỏ đường viền khi focus */
     color: #000000; /* Màu chữ đen */
     margin-left: 500px;
+    margin-top: 100px;
 }
 .search #button-search{
   width: 80px;
   height: 20px;
-  border-radius: 5px;
+  border-radius: 0px;
   
 }
 .search #button-search:hover{
