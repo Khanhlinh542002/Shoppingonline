@@ -127,7 +127,7 @@ span.link {
 /* menu.css */
 
 div.border-bottom {
-  height: 130px;
+  height: 20  0px;
   border-bottom: 1px solid rgb(0, 0, 0);
   padding: 30px;
   background-color: rgb(173, 173, 173);
@@ -147,8 +147,8 @@ div.float-left {
 }
 .search #search-bar{
     width: 150px;
-    height: 30px;
-    padding: 30px;
+    height: 20px;
+    padding: 10px;
     border:1px solid black 1;
     border-radius: 0px; /* Bo tròn cạnh của input */
     outline: none; /* Loại bỏ đường viền khi focus */
@@ -157,7 +157,7 @@ div.float-left {
 }
 .search #button-search{
   width: 80px;
-  height: 30px;
+  height: 20px;
   border-radius: 5px;
   
 }
