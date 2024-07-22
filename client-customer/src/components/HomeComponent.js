@@ -111,7 +111,7 @@ class Home extends Component {
               <img src="/versace.png" width="100%" alt="Slide 3"/>
             </div>
             <div className="mySlides fade">
-              <img src="/hugo.jpg" width="100%" alt="Slide 3"/>
+              <img src="/hugo.jpg" width="100%" alt="Slide 4"/>
             </div>
             <a className="prev" onClick={() => this.plusSlides(-1)}>&#10094;</a>
             <a className="next" onClick={() => this.plusSlides(1)}>&#10095;</a>
@@ -140,6 +140,7 @@ class Home extends Component {
                 <p>Email: Example@gmail.com</p>
                 <p>Phone: +0123 4567 8910</p>
                 <p>Payment Accepted</p>
+                
             </div>
         </div>
          
