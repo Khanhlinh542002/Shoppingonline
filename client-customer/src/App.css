@@ -2,7 +2,7 @@
   width:100%;
   height: fit-content;
   margin: 0px auto;
-  background-color: whitesmoke;
+  background-color: rgb(222, 216, 216);
 }
 .body-admin {
   width: fit-content;
@@ -80,7 +80,7 @@ span.link {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #7d7272;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -138,7 +138,7 @@ div.float-left {
 }
 
 .menu-logo{
-  padding-left: 5px;
+  padding-left: 0px;
 }
 .float-right {
   display: inline-block;
@@ -146,37 +146,37 @@ div.float-left {
   padding-top: 40px;
 }
 .search #search-bar{
-    width: 300px;
+    width: 100px;
     height: 30px;
     padding: 10px;
     border:1px solid black 1;
-    border-radius: 20px; /* Bo tròn cạnh của input */
+    border-radius: 0px; /* Bo tròn cạnh của input */
     outline: none; /* Loại bỏ đường viền khi focus */
     color: #333; /* Màu chữ đen */
 }
 .search #button-search{
   width: 80px;
   height: 30px;
-  border-radius: 10px;
-  margin: 5px;
+  border-radius: 0px;
+  margin: 0px;
 }
 .search #button-search:hover{
-   background-color:#ffeeaa
+   background-color:#fcf6e2
 }
 .others{
   display: inline-block;
-  float: right;
-  padding-top: 47px;
+  float: left;
+  padding-top: 50px;
 }
 .others a{
   color: #000; /* Màu chữ đen */
   text-decoration: none;
   padding: 10px 10px; /* Khoảng cách giữa các mục */
-  font-family: 'Roboto', sans-serif; /* Chọn font chữ đẹp */
-  transition: all 0.3s ease; /* Hiệu ứng hover mềm mại */
+  font-family: 'sans-serif' ; /* Chọn font chữ đẹp */
+  transition: all 0.1s ease; /* Hiệu ứng hover mềm mại */
 }
 .others a:hover{
-  color: #ff4d4d;
+  color: #b6aeae;
 }
 .others span{
   padding:5px;
@@ -197,50 +197,50 @@ li.menu {
 }
 .menu li a {
   color: #000; /* Màu chữ đen */
-  text-decoration: none;
+  text-decoration: black;
   padding: 10px 20px; /* Khoảng cách giữa các mục */
-  font-family: 'Roboto', sans-serif; /* Chọn font chữ đẹp */
-  transition: all 0.3s ease; /* Hiệu ứng hover mềm mại */
+  font-family: 'sans-serif'; /* Chọn font chữ đẹp */
+  transition: all 0.1s ease; /* Hiệu ứng hover mềm mại */
 }
 .menu li a:hover {
-  color: #ff4d4d; /* Màu chữ đỏ khi hover */
+  color: #050369; /* Màu chữ xanh khi hover */
   background-color: rgba(255, 255, 255, 0.2); /* Màu nền nhẹ khi hover */
 }
 .menu li a.active {
-  color: #ff4d4d; /* Màu chữ đỏ khi mục được chọn */
+  color: #050369; /* Màu chữ xanh khi mục được chọn */
 }
 form.search {
-  margin: 0px;
+  margin: 10px;
 }
 input.keyword {
   width: 150px;
 }
 /*Footer*/
 .footer{
-  background-color:whitesmoke;
-  padding: 10px;
-  text-align: center;
+  background-color:rgb(0, 0, 0);
+  padding: 0px;
+  text-align: left ;
   
 }
 .footer-item img{
-    padding-left: 5px;
+    padding-left: 0px;
 }
 /* datatable.css */
 .datatable {
-  text-align: center;
+  text-align: left;
   border-collapse: collapse;
 }
 /* header */
 tr:first-child.datatable {
-  background-color: #ffcc00;
+  background-color: #f7f6f1;
 }
 /* even rows, except header */
 tr:not(:first-child):nth-child(even).datatable {
-  background-color: #f5f5f5;
+  background-color: #0d0c0c;
 }
 /* odd rows, except header */
 tr:not(:first-child):nth-child(odd).datatable {
-  background-color: #ffeeaa;
+  background-color: #f7f6f1;
 }
 /* except header */
 tr:not(:first-child):hover.datatable {
