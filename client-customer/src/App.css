@@ -129,7 +129,7 @@ span.link {
 div.border-bottom {
   height: 300px;
   border-bottom: 1px solid rgb(0, 0, 0);
-  padding: 10px;
+  padding: 30px;
   background-color: rgb(1, 122, 9);
 }
 div.float-left {
@@ -153,7 +153,7 @@ div.float-left {
     border-radius: 0px; /* Bo tròn cạnh của input */
     outline: none; /* Loại bỏ đường viền khi focus */
     color: #000000; /* Màu chữ đen */
-    margin-right: 0px;
+    margin-left: 150px;
 }
 .search #button-search{
   width: 80px;
@@ -177,7 +177,7 @@ div.float-left {
   transition: all 0.1s ease; /* Hiệu ứng hover mềm mại */
 }
 .others a:hover{
-  color: #e51a1a;
+  color: #12123d;
 }
 .others span{
   padding:5px;
@@ -218,10 +218,10 @@ input.keyword {
 }
 /*Footer*/
 .footer{
-  background-color:rgb(90, 8, 244);
+  background-color:rgb(0, 0, 0); /*nền footer*/
   padding: 0px;
   text-align: left ;
-  
+  color: #ffffff /*chữ trong footer*/
 }
 .footer-item img{
     padding-left: 0px;
@@ -237,7 +237,7 @@ tr:first-child.datatable {
 }
 /* even rows, except header */
 tr:not(:first-child):nth-child(even).datatable {
-  background-color: #05f559;
+  background-color: #050369;
 }
 /* odd rows, except header */
 tr:not(:first-child):nth-child(odd).datatable {
