@@ -127,10 +127,10 @@ span.link {
 /* menu.css */
 
 div.border-bottom {
-  height: 200px;
+  height: 300px;
   border-bottom: 1px solid rgb(0, 0, 0);
   padding: 10px;
-  background-color: rgb(104, 147, 107);
+  background-color: rgb(1, 122, 9);
 }
 div.float-left {
   float: left;
@@ -177,7 +177,7 @@ div.float-left {
   transition: all 0.1s ease; /* Hiệu ứng hover mềm mại */
 }
 .others a:hover{
-  color: #b6aeae;
+  color: #e51a1a;
 }
 .others span{
   padding:5px;
@@ -197,7 +197,7 @@ li.menu {
   text-transform: uppercase;
 }
 .menu li a {
-  color: #faf5f5; /* Màu chữ đen */
+  color: #000000; /* Màu chữ đen */
   text-decoration: rgb(234, 229, 229);
   padding: 10px 20px; /* Khoảng cách giữa các mục */
   font-family: 'sans-serif'; /* Chọn font chữ đẹp */
@@ -218,7 +218,7 @@ input.keyword {
 }
 /*Footer*/
 .footer{
-  background-color:rgb(248, 245, 245);
+  background-color:rgb(90, 8, 244);
   padding: 0px;
   text-align: left ;
   
@@ -233,15 +233,15 @@ input.keyword {
 }
 /* header */
 tr:first-child.datatable {
-  background-color: #f7f6f1;
+  background-color: #f0ca07;
 }
 /* even rows, except header */
 tr:not(:first-child):nth-child(even).datatable {
-  background-color: #0d0c0c;
+  background-color: #05f559;
 }
 /* odd rows, except header */
 tr:not(:first-child):nth-child(odd).datatable {
-  background-color: #f7f6f1;
+  background-color: #000000;
 }
 /* except header */
 tr:not(:first-child):hover.datatable {
