@@ -127,10 +127,10 @@ span.link {
 /* menu.css */
 
 div.border-bottom {
-  height: 300px;
+  height: 130px;
   border-bottom: 1px solid rgb(0, 0, 0);
   padding: 30px;
-  background-color: rgb(1, 122, 9);
+  background-color: rgb(173, 173, 173);
 }
 div.float-left {
   float: left;
@@ -148,12 +148,12 @@ div.float-left {
 .search #search-bar{
     width: 150px;
     height: 30px;
-    padding: 10px;
+    padding: 30px;
     border:1px solid black 1;
     border-radius: 0px; /* Bo tròn cạnh của input */
     outline: none; /* Loại bỏ đường viền khi focus */
     color: #000000; /* Màu chữ đen */
-    margin-left: 300px;
+    margin-left: 500px;
 }
 .search #button-search{
   width: 80px;
@@ -223,7 +223,7 @@ input.keyword {
   background-color:rgb(0, 0, 0); /*nền footer*/
   padding: 0px;
   text-align: left ;
-  font-size: 16px; /*cỡ chữ*/
+  font-size: 5px; /*cỡ chữ*/
   color: #ffffff /*chữ trong footer*/
 }
 .footer-item img{
