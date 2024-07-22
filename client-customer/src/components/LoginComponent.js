@@ -8,8 +8,8 @@ class Login extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      txtUsername: 'transon',
-      txtPassword: '123'
+      txtUsername: 'linhvu',
+      txtPassword: '123456linh'
     };
   }
   handleInputChange = (e) => {
