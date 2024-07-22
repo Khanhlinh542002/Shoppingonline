@@ -158,7 +158,7 @@ div.float-left {
   width: 80px;
   height: 30px;
   border-radius: 0px;
-  margin: 0px;
+  padding-right: 0px;
 }
 .search #button-search:hover{
    background-color:#fcf6e2
