@@ -215,7 +215,7 @@ li.menu {
   background-color: rgba(255, 255, 255, 0.2); /* Màu nền nhẹ khi hover */
 }
 .menu li a.active {
-  color: #050369; /* Màu chữ xanh khi mục được chọn */
+  color: #ffffff; /* Màu chữ xanh khi mục được chọn */
 }
 form.search {
   margin: 10px;
@@ -251,7 +251,7 @@ input.keyword {
 }
 /* header */
 tr:first-child.datatable {
-  background-color: #f0ca07;
+  background-color: #ffffff;
 }
 /* even rows, except header */
 tr:not(:first-child):nth-child(even).datatable {
@@ -263,6 +263,6 @@ tr:not(:first-child):nth-child(odd).datatable {
 }
 /* except header */
 tr:not(:first-child):hover.datatable {
-  background-color: #dcfcfc;
+  background-color: #7e7e7e;
   cursor: pointer;
 }
