@@ -173,7 +173,7 @@ div.float-left {
 }
 .others{
   display: inline-block;
-  float: left;
+  
   padding-top: 50px;
 }
 .others a{
