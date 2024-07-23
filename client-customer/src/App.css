@@ -211,7 +211,7 @@ li.menu {
   transition: all 0.1s ease; /* Hiệu ứng hover mềm mại */
 }
 .menu li a:hover {
-  color: #050369; /* Màu chữ xanh khi hover */
+  color: #ffffff; /* Màu chữ xanh khi hover */
   background-color: rgba(255, 255, 255, 0.2); /* Màu nền nhẹ khi hover */
 }
 .menu li a.active {
